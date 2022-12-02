@@ -79,3 +79,7 @@ cd ~/ros2_ws/src
   ```
 
 * Executing this, Turtlebot3 would start replaying the behavior exhibited during ROS bag recording
+
+### Output
+
+![](/run/user/1000/doc/4aeea86/output.gif)
