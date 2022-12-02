@@ -82,4 +82,4 @@ cd ~/ros2_ws/src
 
 ### Output
 
-![](/run/user/1000/doc/4aeea86/output.gif)
+![output](results/output.gif)
