@@ -1,0 +1,4 @@
+cpplint $( find . -name \*.h -or -name \*.cpp | grep -vE -e "^./build/" -e "^./vendor/")
+./walker.cpp:26:  <chrono> is an unapproved C++11 header.  [build/c++11] [5]
+Done processing ./walker.cpp
+Total errors found: 1
