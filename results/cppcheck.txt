@@ -1,0 +1,12 @@
+cppcheck --enable=all --std=c++11  --suppress=missingIncludeSystem --check-config $( find . -name *.cpp | grep -vE -e "^./build/" -e "^./vendor/")
+Checking walker.cpp ...
+walker.cpp:31:0: information: Include file: "rclcpp/rclcpp.hpp" not found. [missingInclude]
+
+^
+walker.cpp:32:0: information: Include file: "std_msgs/msg/string.hpp" not found. [missingInclude]
+
+^
+walker.cpp:33:0: information: Include file: "geometry_msgs/msg/twist.hpp" not found. [missingInclude]
+
+^
+walker.cpp:34:0: information: Include file: "sensor_msgs/msg/laser_scan.hpp" not found. [missingInclude]
